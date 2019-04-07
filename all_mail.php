@@ -78,8 +78,8 @@ include("flash.php");
         $mail->isSMTP();                                            // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';    // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                                     // Enable SMTP authentication
-        $mail->Username = 'mobarak.hossain.cse12@gmail.com';                 // SMTP username
-        $mail->Password = 'joykhan151390';                              // SMTP password
+        $mail->Username = 'yourgmail@.com';                         // SMTP username
+        $mail->Password = 'Your Password';                          // SMTP password
         $mail->SMTPSecure = 'TLS';                                  // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                          // TCP port to connect to
 
